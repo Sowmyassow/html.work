@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html</title>
+</head>
+<body>
+    <center>
+        <h1>SELECT TAG - form tag</h1>
+    </center>
+    <label for="">Select any language to continue</label>
+    <select name="" id="lan">
+        <option value="" disabled selected>Select any option</option>
+        <option value="kannada">Kannada</option>
+        <option value="English">English</option>
+        <option value="hindi">hindi</option>
+        <option value="tamil">tamil</option>
+        <option value="malayalam">malayalam</option>
+        <option value="telugu">telugu</option>
+    </select>
+    <button onclick="helloworld()">click</button>
+
+    <script>
+        function helloworld(){
+            let lan = document.getElementById("lan").value;
+            alert(lan)
+        }
+    </script>
+
+    <form>
+        <label for="">firstname</label> <br>
+        <input type="text" name="firstname" id="fname"> <br>
+        <label for="">lastname</label> <br>
+        <input type="text" name="lastname" id="lname"> <br>
+        <label for="">email</label> <br>
+        <input type="email" name="email" id="email"> <br>
+        <button type="button" onclick="newUser()">Create Account</button>
+    </form>
+    <p id="result"></p>
+
+    <script>
+        function newUser(){
+            let firstname = document.getElementById("fname").value;
+            let lastname = document.getElementById("lname").value;
+            let fullname = firstname + " " + lastname;
+            let email = document.getElementById('email').value;
+
+            let result = document.getElementById('result');
+
+        result.innerHTML = <h1 style="color:green;" class="hello">firstname = ${firstname} <br> lastname = ${lastname}<br>  fullname = ${fullname} <br> email = ${email}</h1> <input type="text">;
+        }
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SHOPPING </title>
+    <style>
+        *{ 
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+        .card img{
+            width: 100%;
+            margin-bottom: 20px;
+            border-radius:10px;
+        }
+        .card{
+            width:300px;
+            padding:10px;
+            background-color: #f8eeee;
+            overflow:hidden;
+        }
+        .container{
+            background-color: beige;
+            display: flex;
+            padding: 20px;
+            min-height: 100dvh; 
+            gap:30px;
+            justify-content: center;
+            align-items:center;
+            flex-flow:wrap;
+        }
+        button{
+            border:none;
+            padding:15px;
+            width:100%;
+            background-color: blue;
+            color:black;
+            border-radius:15px;
+            font-size: 20px;
+            font-family:'Times New Roman', Times, serif;
+            margin-top:20px;
+            cursor:pointer;
+        }
+        button:hover{
+            opacity: 0.5;
+        }
+        p{
+            margin-bottom: 10px;
+            margin-top: 10px;
+            color: #717171;
+        }
+        marquee{
+            position: sticky;
+            top: 0;
+        }
+         
+    </style>
+</head>
+<body>
+    <marquee behavior="scroll" direction="right" scrollamount="10" bgcolor="red"> 
+        <p> Order now Get 50% instant discount</p>
+    </marquee>
+    <div class="container">
+        <div class="card"> 
+            <img src="https://img3.junaroad.com/uiproducts/19819004/zoom_0-1683468817.jpg"alt="dress">
+            <h3> Sticthed lehanga</h3>
+            <p> <small> <i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt et tempore modi itaque animi odio minima porro aspernatur dignissimos ad, eius sint delectus quis in labore deleniti enim veniam qui!</i></small></p>
+            <p> <del> 1799/-</del><b>799/-</b></p>
+            <button type="button"> Order Now</button>
+        </div>
+        <div class="card"> 
+            <img src="https://img3.junaroad.com/uiproducts/19689175/zoom_0-1681210587.jpg"alt="dress">
+            <h3> Kurthis</h3>
+            <p> <small> <i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt et tempore modi itaque animi odio minima porro aspernatur dignissimos ad, eius sint delectus quis in labore deleniti enim veniam qui!</i></small></p>
+            <p> <del> 1799/-</del><b>799/-</b></p>
+            <button type="button"> Order Now</button>
+        </div>
+        <div class="card"> 
+            <img src="https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/61DQzRr2EnL._SY679_.jpg" alt="dress">
+            <h3> Sticthed SALWAR</h3>
+            <p> <small> <i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt et tempore modi itaque animi odio minima porro aspernatur dignissimos ad, eius sint delectus quis in labore deleniti enim veniam qui!</i></small></p>
+            <p> <del> 1599/-</del><b>699/-</b></p>
+            <button type="button"> Order Now</button>
+        </div>
+        <div class="card"> 
+            <img src="https://assets.ajio.com/medias/sys_master/root/20230801/663S/64c92c9deebac147fc9de0b6/-473Wx593H-466410399-white-MODEL.jpg" alt="dress">
+            <h3> Frock</h3>
+            <p> <small> <i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt et tempore modi itaque animi odio minima porro aspernatur dignissimos ad, eius sint delectus quis in labore deleniti enim veniam qui!</i></small></p>
+            <p> <del> 1999/-</del><b>999/-</b></p>
+            <button type="button"> Order Now</button>
+        </div>
+        <div class="card"> 
+            <img src="https://cdn.shopify.com/s/files/1/0615/1828/2910/files/image_3_212ef311-1d0c-41bd-8a74-6296b8aec967.webp?v=1693485758&width=250"alt="dress">
+            <h3> Ready Gowns</h3>
+            <p> <small> <i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt et tempore modi itaque animi odio minima porro aspernatur dignissimos ad, eius sint delectus quis in labore deleniti enim veniam qui!</i></small></p>
+            <p> <del> 1799/-</del><b>799/-</b></p>
+            <button type="button"> Order Now</button>
+        </div>
+    </div>
+
+</body>
+</html>

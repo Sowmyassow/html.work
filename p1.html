@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-5</title>
+</head>
+<body>
+     <center>
+        <h1> Media tags</h1>
+     </center>
+     <hr>
+     <video src="./assests/media/production_id_3833491 (1080p).mp4 " width="800px" height="400px" muted autoplay loop controls> </video>
+
+     <hr>
+     <marquee> <video src="./assests/media/production_id_3833491 (1080p).mp4 " width="800px" height="400px" muted autoplay loop controls> </video> </marquee>
+     <marquee behavior="scroll" direction="Right"  scrollamount="10" id="myMarquee" onmouseover="stopper()" onmouseleave="start()"> <video src="./assests/media/production_id_3833491 (1080p).mp4 " width="800px" height="400px" muted autoplay loop controls> </video> </marquee>
+     <script> 
+     function stopper(){
+                var v=document.getElementById('myMarquee')
+                v.stop();
+     }
+     function start(){
+                    document.getElementById('myMarquee')
+                document.getElementById('myMarquee').start();
+     }
+    </script>
+    <hr>
+    <video width="800px" height="400px" muted loop autoplay controls>
+        <source src="./assests/media/production_id_3833491 (1080p).mp4">
+    </video>
+
+</body>
+</html> 

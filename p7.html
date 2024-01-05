@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center> 
+        <h1>  This is the dialog tag</h1>
+    </center>
+    <hr>
+    <dialog id="mydialog">
+        <button onclick="closeDialog()"> &times</button>
+        <h1> This is the dialog box</h1>
+        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo maiores, odio officia nostrum labore praesentium sapiente incidunt reiciendis vero blanditiis iusto veniam doloremque deserunt, fuga et! Vitae perspiciatis nostrum amet!</p>
+    </dialog>
+    <button onclick="showDialog()"> Show the dialog</button>
+    <script>
+        function showDialog(){
+            document.getElementById('mydialog').show();
+        }
+
+        function closeDialog(){
+            document.getElementById('mydialog').close();
+        }
+    </script>
+</body>
+</html>
