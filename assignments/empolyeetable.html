@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5</title>
+</head>
+<body>
+    <center> <h1> New Employee Details Form</h1></center>
+   <form>
+    <table  cellspacing="5" cellpadding="1">
+        <tr> <th> Personal Details</th></tr>
+        <tr> <td> your name </td>
+            <td>*<input style="background-color:rgb(169, 169, 226) " type="text"  list="codes">
+                <datalist id="codes">
+                <option value="Mrs"> </option>
+                <option value="Mr"> </option> 
+                </datalist> </td>
+            <td>*<input type="text" name="fname" id="fname" required> </td>
+            <td> <input type="text" name="mname" id="mname"> </td>
+            <td>* <input type="text" name="sname" id="sname" required> </td>
+        </tr>
+        <tr> <td></td>
+            <td> Title</td>
+        <td> First name</td>
+        <td> Middle name</td>
+        <td> Surname</td>
+    </tr>
+    <tr> <td> *Gender</td>
+        <td> <input type="radio" name="gender" id="male" value="male" required>
+            <label for="male"> Male</label>
+            <input type="radio" name="gender" id="female" value="female" required>
+            <label for="female"> Female</label></td>
+    </tr>
+    <tr> <td> *Birth Date</td>
+        <td>
+            <input type="date" name="date"required > </td></tr>
+     <tr> <td> Address </td>
+        <td>*<input type="text" name="streetadd" required > </td>
+        <td> <input type="text" name="add2" id="add2" > </td>
+   </tr>    
+   <tr> <td> </td>
+        <td> Street Address</td>
+    <td> Street Address Line2</td> </tr>   
+    <tr> <td> </td>
+        <td> *<input type="text" name="shurb" required> </td>
+        <td> <input type="text" name="state" required> </td>
+        <td> *<input type="number" name="pcode" required ></td>
+    </tr>
+    <tr> <td></td>
+        <td> Suburb</td>
+        <td> State</td>
+        <td> Postcode</td>
+    </tr>
+    <tr> <td> Contact</td>
+        <td> *Home Phone</td>
+        <td> *Mobile Phone</td>
+        <td> *Email Address</td>
+</tr>
+<tr> <td> </td>
+    <td> <input type="tel" required name="homenum" ></td>
+    <td> <input type="tel" required name="mnum"> </td>
+    <td> <input type="email" required name="emailadd"> </td> 
+</tr>
+<tr> 
+    <td> *Are you an australian?</td>
+    <td> <input type="radio" name="aus" id="yes" value="yes" required>
+        <label for="yes"> Yes</label>
+        <input type="radio" name="aus" id="no" value="no" required>
+    <label for="no"> No</label>   </td>
+</tr>
+<tr> <td> *Do you have a Working Visa? </td>
+    <td> <input type="radio" name="visa" id="s" value="s" required>
+        <label for="s"> Yes</label>
+       <input type="radio" name="visa" id="n" value="n" required>
+       <label for="n"> No</label> </td>
+ </tr>
+ <tr> <td><h4> Employment Details</h4> </td></tr>
+ <tr> <td> *Job Title</td>
+    <td> <input type="text" require name="jtitle">  </td>
+</tr>
+<tr> <td> *Commencement Date</td>
+    <td> <input type="date" name="date" required> </td>
+</tr>
+<tr> <td> *File Tax Number</td>
+    <td> <input type="text" required name="fnum"> </td>
+</tr>
+<tr> <td> *Employment Status</td>
+<td><input type="radio" name="status" id="" value="" required>
+    <label for=""> Full Time</label>
+    <input type="radio" name="status" id="" value="" required>
+    <label for=""> Part Time</label> </td>
+    <td><input type="radio" name="status" id="" value="" required>
+        <label for=""> Temporary</label>
+        <input type="radio" name="status" id="" value="" required>
+        <label for=""> Casual</label> </td>
+</tr>
+ <tr> <td> <h4> Emergency Contact Deatils</h4></td></tr>
+ <tr> <td> Name</td>
+     <td>*<input style="background-color:rgb(169, 169, 226)"type="text"  list="codes">
+        <datalist id="codes">
+        <option value="Mrs"> </option>
+        <option value="Mr"> </option> 
+        </datalist> </td>
+    <td>*<input type="text" name="fname" id="fname" required> </td>
+    <td> <input type="text" name="mname" id="mname"> </td>
+    <td> *<input type="text" name="sname" id="sname" required> </td>
+</tr>
+<tr> <td></td>
+    <td> Title</td>
+        <td> First name</td>
+        <td> Middle name</td>
+        <td> Surname</td>
+</tr>
+<tr> <td> *Relationship</td>
+    <td> <input type="text" name="rship" required> </td>    
+</tr>
+<tr> <td> Contact</td>
+    <td> *Home Phone</td>
+    <td> *Mobile Phone</td>
+    <td> *Email Address</td>
+</tr>
+<tr> <td> </td>
+<td> <input type="tel" required name="homenum" ></td>
+<td> <input type="tel" required name="mnum"> </td>
+<td> <input type="email" required name="emailadd"> </td> 
+</tr>
+<tr> <td> <h4> Banking Details </h4></td></tr>
+<tr> <td> Bank</td>
+        <td> *Bank name</td>
+        <td> *Bank Branch</td>
+</tr>
+<tr> <td> </td>
+    <td> <input type="text" name="bname" required> </td>
+        <td> <input type="text" name="bbranch" required> </td>
+    </tr>
+ <tr> <td> Account </td>
+    <td> *Account Name</td>
+    <td> *Account Number</td>
+    <td> *BSB Number</td>
+</tr>   
+<tr> <td> </td>
+    <td> <input type="text" name="aname" required> </td>
+    <td> <input type="text" name="anum" required> </td>
+    <td> <input type="number" name="bsbnum" required> </td>
+</tr>
+<tr> <td > *Employee Signature </td>
+        <td colspan="3"> <input type="file" name="sign" required>  </td>
+</tr>
+<tr> <td> </td>
+    <td> <input type="text" placeholder="Print your name here" > </td>
+</tr>
+<tr> <td> </td>
+    <td><input type="text" placeholder="Enter Date Here" > </td>
+</tr>
+<tr> <td> <button style="background-color:rgb(100, 100, 168) ; border-radius: 20px;" type="submit"> Submit</button></td></tr>
+    </table>
+ <h5> *: Mandatory Fields</h5>   
+   </form>
+    
+</body>
+</html>
